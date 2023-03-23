@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable no-empty-pattern */
 /* eslint-disable prettier/prettier */
-import { hash } from "bcrypt"
+import { hash } from "bcryptjs"
 import { inject, injectable } from "tsyringe";
 
 import { AppError } from "../../../../errors/AppError";

@@ -1,8 +1,8 @@
 /* eslint-disable prettier/prettier */
 import { Request, Response } from "express"
 import { container } from "tsyringe";
-
 import { CreateUserUseCase } from "./CreateUserUseCase";
+
 
 class CreateUserController {
     async handle(request: Request, response: Response): Promise<Response> {
@@ -14,7 +14,7 @@ class CreateUserController {
             name, email, password, driver_license
         })
 
-        return response.status(200).send()
+        return response.status(201).send()
     }
 }
 

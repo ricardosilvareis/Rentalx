@@ -1,4 +1,4 @@
-import { SpecificationRepository } from "../../repositories/implementations/SpecificationRepository";
+import { SpecificationRepository } from "../../infra/typeorm/repositories/SpecificationRepository";
 import { ListSpecificationController } from "./ListSpecificationController";
 import { ListSpecificationUseCase } from "./ListSpecificationUseCase";
 
